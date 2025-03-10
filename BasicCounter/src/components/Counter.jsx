@@ -14,6 +14,11 @@ const Counter = () => {
   const decrement = () => {
     setCount(count - 1) // Update the count state subtracting 1
   }
+
+  // Function to reset the count
+  const reset = () => {
+    setCount(0) // Reset the count state to 0
+  }
 }
 
 export default Counter
