@@ -1,0 +1,26 @@
+.explanation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ol__explanation {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.li__explanation {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.li__explanation img {
+  width: 100%;
+  height: auto;
+}
