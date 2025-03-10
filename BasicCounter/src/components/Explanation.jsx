@@ -37,6 +37,17 @@ const Explanation = () => {
             'code that shows how to create a function that decrements the counter value'
           }
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description={
+            'Create a function that will reset the counter value to zero.'
+          }
+          imageSrc={'/images/resetFunction.png'}
+          imageAlt={
+            'code that shows how to create a function that resets the counter value to zero'
+          }
+        />
       </ol>
     </div>
   )
