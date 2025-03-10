@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
-function App() {}
+const App = () => {}
 
 export default App
