@@ -1,19 +1,25 @@
 .counter {
+  margin-top: 1rem;
   min-height: 30dvh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .counter h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #333;
 }
 
 .counter p {
   font-size: 1.5rem;
+  color: #666;
 }
 
 .btns {
@@ -26,12 +32,25 @@
 .btns button {
   font-size: 1rem;
   cursor: pointer;
-
-  padding: 0.5rem 1rem;
-  width: 120px;
-
+  padding: 0.75rem 1.5rem;
+  width: 140px;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-  background-color: #f1f1f1;
+.btns button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btns button:active {
+  transform: translateY(0);
+}
+
+.btns button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
 }
