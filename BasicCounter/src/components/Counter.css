@@ -1,5 +1,5 @@
 .counter {
-  height: 50dvh;
+  min-height: 30dvh;
 
   display: flex;
   flex-direction: column;
