@@ -48,6 +48,13 @@ const Explanation = () => {
             'code that shows how to create a function that resets the counter value to zero'
           }
         />
+
+        <LiExplanation
+          stepNumber={5}
+          description={"Display the counter's value in the component."}
+          imageSrc={'/images/htmlStructure.png'}
+          imageAlt={'code that shows the HTML structure of the component'}
+        />
       </ol>
     </div>
   )
