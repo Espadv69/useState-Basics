@@ -19,6 +19,20 @@ const Counter = () => {
   const reset = () => {
     setCount(0) // Reset the count state to 0
   }
+
+  return (
+    <div className="counter">
+      <h1>Basic Counter</h1>
+
+      <p>{count}</p>
+
+      <div className="btns">
+        <button onClick={increment}>Increment</button>
+        <button onClick={decrement}>Decrement</button>
+        <button onClick={reset}>Reset</button>
+      </div>
+    </div>
+  )
 }
 
 export default Counter
