@@ -1,0 +1,14 @@
+{
+  "name": "usestate-basics",
+  "version": "1.0.0",
+  "description": "Five basic examples of useState",
+  "workspaces": [
+    "BasicCounter/"
+  ],
+  "keywords": [
+    "useState",
+    "useEffect",
+    "React"
+  ],
+  "type": "commonjs"
+}
