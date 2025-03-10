@@ -15,6 +15,14 @@ const Explanation = () => {
             'code that shows how to create a hook to handle counter value'
           }
         />
+        <LiExplanation
+          stepNumber={2}
+          description={"Create a function that will increment the counter's value."}
+          imageSrc={'/images/incrementFunction.png'}
+          imageAlt={
+            'code that shows how to create a function that increments the counter value'
+          }
+        />
       </ol>
     </div>
   )
