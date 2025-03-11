@@ -22,13 +22,5 @@
     "type": "git",
     "url": "https://github.com/Espadv69/useState-Basics.git"
   },
-  "author": "Aitor",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "devDependencies": {
-    "vite": "^5.0.0"
-  }
+  "author": "Aitor"
 }
