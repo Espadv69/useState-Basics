@@ -12,6 +12,7 @@ const ShowText = () => {
 
   return (
     <div className="show-text">
+      <h1>Show or Hide Text</h1>
       <button onClick={toggleText}>
         {showText ? 'Hide Text' : 'Show Text'}
       </button>
