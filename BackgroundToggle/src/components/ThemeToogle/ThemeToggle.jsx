@@ -6,6 +6,9 @@ const ThemeToggle = () => {
   const [theme, setTheme] = useState('light')
 
   // Function to toggle the theme
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'))
+  }
 }
 
 export default ThemeToggle
