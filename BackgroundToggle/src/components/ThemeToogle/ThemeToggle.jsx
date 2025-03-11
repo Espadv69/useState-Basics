@@ -16,7 +16,7 @@ const ThemeToggle = () => {
     <div className={`theme-toggle ${theme}`}>
       <h1>Theme Toggle</h1>
       <button onClick={toggleTheme} className="toggle-btn">
-        Toggle Theme
+        Toogle {theme === 'light' ? 'dark' : 'light'} theme
       </button>
       <Explanation />
     </div>
