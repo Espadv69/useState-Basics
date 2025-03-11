@@ -9,6 +9,15 @@ const ThemeToggle = () => {
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'))
   }
+
+  return (
+    <div className={`theme-toggle ${theme}`}>
+      <h1>Theme Toggle</h1>
+      <button onClick={toggleTheme} className="toggle-btn">
+        Toggle Theme
+      </button>
+    </div>
+  )
 }
 
 export default ThemeToggle
