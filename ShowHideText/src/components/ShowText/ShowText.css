@@ -1,6 +1,5 @@
 .show-text {
   max-width: 600px;
-  height: 50dvh;
   margin: 2rem auto;
   padding: 20px;
 
@@ -17,6 +16,8 @@
 
   background-color: #f9f9f9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  animation: fadeIn 0.5s ease-out;
 }
 
 .show-text h1 {
@@ -26,13 +27,16 @@
 }
 
 .show-text button {
+  cursor: pointer;
   padding: 10px 20px;
+
   font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
+
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+
+  color: #fff;
+  background-color: #007bff;
   transition: background-color 0.3s ease;
 }
 
@@ -42,5 +46,31 @@
 
 .show-text p {
   font-size: 18px;
-  opacity: .8;
+  color: #0066ff;
+}
+
+.show-text p.visible {
+  animation: fadeInExpand .3s ease-out forwards;
+}
+
+@keyframes fadeInExpand {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
