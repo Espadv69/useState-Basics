@@ -9,6 +9,15 @@ const ShowText = () => {
   const toggleText = () => {
     setShowText(!showText)
   }
+
+  return (
+    <div className="show-text">
+      <button onClick={toggleText}>
+        {showText ? 'Hide Text' : 'Show Text'}
+      </button>
+      {showText && <p>This is the text to show or hide</p>}
+    </div>
+  )
 }
 
 export default ShowText
