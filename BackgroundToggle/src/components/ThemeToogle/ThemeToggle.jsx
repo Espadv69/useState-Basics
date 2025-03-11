@@ -1,4 +1,6 @@
 import { useState } from 'react'
+
+import Explanation from '../Explanation/Explanation'
 import './ThemeToggle.css'
 
 const ThemeToggle = () => {
@@ -16,6 +18,7 @@ const ThemeToggle = () => {
       <button onClick={toggleTheme} className="toggle-btn">
         Toggle Theme
       </button>
+      <Explanation />
     </div>
   )
 }
