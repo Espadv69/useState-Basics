@@ -2,6 +2,7 @@
   "name": "usestate-basics",
   "version": "1.0.0",
   "description": "A collection of five basic projects using the useState hook in React.",
+  "private": true,
   "workspaces": [
     "BasicCounter/",
     "BackgroundToggle/",
