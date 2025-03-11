@@ -11,6 +11,13 @@ const Explanation = () => {
           imgUrl="/images/initHook.png"
           imgAlt="Code snippet showing the initial state with the text hidden."
         />
+
+        <LiExplanation
+          stepNumber={2}
+          description="Function to toggle the text visibility."
+          imgUrl="/images/toggleText.png"
+          imgAlt="Code snippet showing the function to toggle the text visibility."
+        />
       </ol>
     </div>
   )
