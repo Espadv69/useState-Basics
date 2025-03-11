@@ -1,7 +1,8 @@
 .show-text {
+  width: 100%;
   max-width: 600px;
   margin: 2rem auto;
-  padding: 20px;
+  padding: 1rem;
 
   display: flex;
   flex-direction: column;
