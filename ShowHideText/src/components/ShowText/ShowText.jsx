@@ -16,7 +16,11 @@ const ShowText = () => {
       <button onClick={toggleText}>
         {showText ? 'Hide Text' : 'Show Text'}
       </button>
-      {showText && <p>This is the text to show or hide</p>}
+      {showText && (
+        <p className={showText ? 'visible' : ''}>
+          This is the text to show or hide
+        </p>
+      )}
     </div>
   )
 }
