@@ -25,6 +25,13 @@ const Explanation = () => {
           imgUrl="/images/htmlStructure.png"
           imgAlt="Code snippet showing the HTML structure with the text and button."
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description="How to render the text based on the state."
+          imgUrl="/images/renderIfTrue.png"
+          imgAlt="Code snippet showing how to render the text based on the state."
+        />
       </ol>
     </div>
   )
