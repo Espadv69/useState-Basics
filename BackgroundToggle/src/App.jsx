@@ -5,7 +5,6 @@ const App = () => {
   return (
     <div className="app">
       <ThemeToggle />
-      <Explanation />
     </div>
   )
 }
