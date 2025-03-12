@@ -46,6 +46,13 @@ const Explanation = () => {
           imgUrl="/images/removeItemFunction.png"
           imgAlt="code snippet of a function to remove an item from the list"
         />
+
+        <LiExplanation
+          stepNumber={7}
+          description="Render the form to add a new item."
+          imgUrl="/images/form.png"
+          imgAlt="code snippet of a form to add a new item"
+        />
       </ol>
     </section>
   )
