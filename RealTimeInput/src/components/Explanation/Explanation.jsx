@@ -18,6 +18,13 @@ const Explanation = () => {
           imgUrl="/images/handleValue.png"
           imgAlt="Code snippet showing the function that updates the state."
         />
+
+        <LiExplanation
+          stepNumber={3}
+          description="Render an input element that uses the state as its value and the function as its onChange handler, and display the state in a paragraph element."
+          imgUrl="/images/htmlStructure.png"
+          imgAlt="Code snippet showing the input element and paragraph element with the state."
+        />
       </ol>
     </div>
   )
