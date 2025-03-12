@@ -32,6 +32,15 @@ const List = () => {
     // Reset the input value
     setInputValue('')
   }
+
+  // Function to remove an item from the list
+  const removeItem = (index) => {
+    // Create a new list without the item at the given index
+    const newList = list.filter((_, i) => i !== index)
+
+    // Update the list
+    setList(newList)
+  }
 }
 
 export default List
