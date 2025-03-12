@@ -41,6 +41,31 @@ const List = () => {
     // Update the list
     setList(newList)
   }
+
+  return (
+    <section className="list">
+      <h1>Dynamic List</h1>
+
+      <div className="form">
+        <input
+          type="text"
+          value={inputValue}
+          onChange={handleInputChange}
+          placeholder="Enter a new item..."
+        />
+        <button onClick={addItem}>Add</button>
+      </div>
+
+      <ul>
+        {list.map((item, index) => (
+          <li key={index}>
+            {item}
+            <button onClick={() => removeItem(index)}>Remove</button>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
 }
 
 export default List
