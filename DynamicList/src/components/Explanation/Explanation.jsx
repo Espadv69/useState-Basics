@@ -25,6 +25,13 @@ const Explanation = () => {
           imgUrl="/images/initInputHook.png"
           imgAlt="code snippet of a state variable for input value"
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description="Create a function to handle the input change."
+          imgUrl="/images/handleInputValue.png"
+          imgAlt="code snippet of a function to handle input change"
+        />
       </ol>
     </section>
   )
