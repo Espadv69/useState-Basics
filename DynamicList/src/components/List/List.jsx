@@ -52,6 +52,7 @@ const List = () => {
           value={inputValue}
           onChange={handleInputChange}
           placeholder="Enter a new item..."
+          maxLength={30}
         />
         <button onClick={addItem}>Add</button>
       </div>
