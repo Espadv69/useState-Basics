@@ -12,11 +12,18 @@ const Explanation = () => {
           imgAlt="code snippet of an array with 5 items"
         />
 
-        <LiExplanation 
+        <LiExplanation
           stepNumber={2}
           description="Define a state variable to store the list of items."
           imgUrl="/images/initListHook.png"
-          imgAlt="code snippet of a state variable"
+          imgAlt="code snippet of a state variable for list of items"
+        />
+
+        <LiExplanation
+          stepNumber={3}
+          description="Define a state variable to handle the input value."
+          imgUrl="/images/initInputHook.png"
+          imgAlt="code snippet of a state variable for input value"
         />
       </ol>
     </section>
