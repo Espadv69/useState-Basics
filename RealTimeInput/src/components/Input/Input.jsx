@@ -9,6 +9,19 @@ const Input = () => {
   const handleInputChange = (e) => {
     setInputValue(e.target.value)
   }
+
+  return (
+    <div className="container">
+      <h1>Real Time Input</h1>
+      <input
+        type="text"
+        value={inputValue}
+        onChange={handleInputChange}
+        placeholder="Type something..."
+      />
+      <p>{inputValue}</p>
+    </div>
+  )
 }
 
 export default Input
