@@ -32,6 +32,13 @@ const Explanation = () => {
           imgUrl="/images/handleInputValue.png"
           imgAlt="code snippet of a function to handle input change"
         />
+
+        <LiExplanation
+          stepNumber={5}
+          description="Create a function to add a new item to the list."
+          imgUrl="/images/addItemFunction.png"
+          imgAlt="code snippet of a function to add a new item"
+        />
       </ol>
     </section>
   )
