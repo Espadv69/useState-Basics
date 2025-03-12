@@ -1,5 +1,5 @@
 import LiExplanation from './LiExplanation'
-import './Explanaation.css'
+import './Explanation.css'
 
 const Explanation = () => {
   return (
