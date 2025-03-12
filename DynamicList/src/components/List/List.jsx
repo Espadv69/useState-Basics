@@ -13,6 +13,8 @@ const INITIAL_LIST = [
 const List = () => {
   // Init the list state with the initial list to have a starting point
   const [list, setList] = useState(INITIAL_LIST)
+  // Init the input state with an empty string
+  const [inputValue, setInputValue] = useState('')
 }
 
 export default List
