@@ -15,6 +15,11 @@ const List = () => {
   const [list, setList] = useState(INITIAL_LIST)
   // Init the input state with an empty string
   const [inputValue, setInputValue] = useState('')
+
+  // Function to handle the input change
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value)
+  }
 }
 
 export default List
