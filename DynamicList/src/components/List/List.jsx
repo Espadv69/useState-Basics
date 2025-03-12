@@ -56,9 +56,9 @@ const List = () => {
         <button onClick={addItem}>Add</button>
       </div>
 
-      <ul>
+      <ul className="ul__list">
         {list.map((item, index) => (
-          <li key={index}>
+          <li className="li__list" key={index}>
             {item}
             <button onClick={() => removeItem(index)}>Remove</button>
           </li>
