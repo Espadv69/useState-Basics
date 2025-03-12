@@ -11,6 +11,13 @@ const Explanation = () => {
           imgUrl="/images/initialList.png"
           imgAlt="code snippet of an array with 5 items"
         />
+
+        <LiExplanation 
+          stepNumber={2}
+          description="Define a state variable to store the list of items."
+          imgUrl="/images/initListHook.png"
+          imgAlt="code snippet of a state variable"
+        />
       </ol>
     </section>
   )
