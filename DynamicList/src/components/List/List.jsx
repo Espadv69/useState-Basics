@@ -20,6 +20,18 @@ const List = () => {
   const handleInputChange = (e) => {
     setInputValue(e.target.value)
   }
+
+  // Function to add a new item to the list
+  const addItem = () => {
+    // Check if the input value is not empty
+    if (inputValue.trim() === '') return
+
+    // Add the new item to the list
+    setList([...list, inputValue])
+
+    // Reset the input value
+    setInputValue('')
+  }
 }
 
 export default List
