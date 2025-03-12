@@ -11,6 +11,13 @@ const Explanation = () => {
           imgUrl="/images/initHook.png"
           imgAlt="Code snippet showing the initialisation of the state."
         />
+
+        <LiExplanation
+          stepNumber={2}
+          description="Create a function that updates the state."
+          imgUrl="/images/handleValue.png"
+          imgAlt="Code snippet showing the function that updates the state."
+        />
       </ol>
     </div>
   )
