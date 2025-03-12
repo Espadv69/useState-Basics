@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './List.css'
 
 // Initial list of items
@@ -9,6 +10,9 @@ const INITIAL_LIST = [
   'Fifth item',
 ]
 
-const List = () => {}
+const List = () => {
+  // Init the list state with the initial list to have a starting point
+  const [list, setList] = useState(INITIAL_LIST)
+}
 
 export default List
